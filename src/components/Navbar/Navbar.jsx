@@ -64,7 +64,6 @@ const ResponsiveAppBar = () => {
               color="inherit"
             >
               <MenuIcon />
-              <ShoppingCartIcon />
             </IconButton>
             <Menu
               id="menu-appbar"
