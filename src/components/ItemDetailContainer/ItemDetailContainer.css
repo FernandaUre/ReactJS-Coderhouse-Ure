@@ -1,0 +1,6 @@
+#ItemDetailContainer {
+    margin: 10rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}

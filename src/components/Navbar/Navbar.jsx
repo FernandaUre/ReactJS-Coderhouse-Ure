@@ -11,8 +11,9 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import './Navbar.css';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { Link } from 'react-router-dom';
 
-const pages = ['HOME','BUZOS', 'ZAPATILLAS', 'GORRAS'];
+const pages = [];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -34,7 +35,7 @@ const ResponsiveAppBar = () => {
   };
 
   return (
-    <AppBar position="sticky" id='navbarContainer'>
+    <AppBar position="static" id='navbarContainer'>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -54,6 +55,12 @@ const ResponsiveAppBar = () => {
           >
             AIDA STORE
           </Typography>
+          <div id='navLinks'>
+            <Typography><Link to='/' id='Links'>HOME</Link></Typography>
+            <Typography><Link to='/category/buzos' id='Links'>BUZOS</Link></Typography>
+            <Typography><Link to='/category/zapatillas' id='Links'>ZAPATILLAS</Link></Typography>
+            <Typography><Link to='/category/gorras' id='Links'>GORRAS</Link></Typography>
+          </div>  
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"

@@ -16,3 +16,20 @@
     border-radius: 5px;
     padding: 5px;
 }
+
+#navLinks {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24rem;
+}
+
+#Links {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+#Links:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.475);
+}
