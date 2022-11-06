@@ -12,6 +12,7 @@ import MenuItem from '@mui/material/MenuItem';
 import './Navbar.css';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Link } from 'react-router-dom';
+import CartWidget from './CartWidget';
 
 const pages = [];
 
@@ -126,10 +127,7 @@ const ResponsiveAppBar = () => {
               </Button>
             ))}
           </Box>
-          <Box sx={{ flexGrow: 0 }} id="contadorBox">
-          <ShoppingCartIcon id="cartIcon"/>
-          <span id='contador'>3</span>
-          </Box>  
+          <CartWidget />  
         </Toolbar>
       </Container>
     </AppBar>

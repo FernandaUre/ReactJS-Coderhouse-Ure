@@ -9,6 +9,12 @@
 
 #contador {
     font-size: 28px;
+    text-decoration: none;
+}
+
+#LinkCartWidget {
+    text-decoration: none;
+    color: white;
 }
 
 #contadorBox {

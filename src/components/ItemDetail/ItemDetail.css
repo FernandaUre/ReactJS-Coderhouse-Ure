@@ -42,3 +42,51 @@
 #btnComprar:hover {
     background-color: #bb57ae9b;
 }
+
+#divBtn {
+    margin-left: 36rem;
+    margin-top: 2rem;
+}
+
+.LinkSeguir {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.LinkCarrito {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+#btnSeguir {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: white;
+    background-color: #bb57ae;
+    border: none;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+#btnSeguir:hover {
+    background-color: #bb57ae85;
+    cursor: pointer;
+}
+
+#btnCarrito {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: white;
+    background-color: #bb57ae;
+    border: none;
+    border-radius: 40px;
+    padding: 5px;
+    margin-left: 3rem;
+}
+
+#btnCarrito:hover {
+    background-color: #bb57ae85;
+    cursor: pointer;
+}

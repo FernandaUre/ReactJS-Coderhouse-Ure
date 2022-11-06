@@ -1,0 +1,67 @@
+#ItemCount {
+    margin-left: 40rem;
+}
+
+#spanStock {
+    font-size: 20px;
+}
+
+.btnRestar {
+    margin-left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #bb57ae;
+    border: none;
+    border-radius: 40px;
+    padding: 5px;
+    margin-right: 1rem;
+}
+
+.btnRestar:hover {
+    background-color: #bb57ae85;
+    cursor: pointer;
+}
+
+.btnSumar {
+    margin-left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #bb57ae;
+    border: none;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+.btnSumar:hover {
+    background-color: #bb57ae85;
+    cursor: pointer;
+}
+
+#spanNumero {
+    font-size: 30px;
+}
+
+#btnReservar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    color: white;
+    background-color: #bb57ae;
+    border: none;
+    border-radius: 40px;
+    padding: 5px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+#btnReservar:hover {
+    background-color: #bb57ae85;
+    cursor: pointer;
+}
