@@ -2,7 +2,7 @@
 
 Podes probar este proyecto en el siguiente link:
 
-https://e-commerce-estebanbarac.vercel.app/
+https://proyecto-final-fernandaure.vercel.app/
 
 Tambien podes correrlo de forma local:
 
